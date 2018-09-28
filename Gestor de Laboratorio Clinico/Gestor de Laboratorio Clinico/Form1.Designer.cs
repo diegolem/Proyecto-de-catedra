@@ -41,6 +41,7 @@
             this.btnTemas = new System.Windows.Forms.Button();
             this.btnNotificaciones = new System.Windows.Forms.Button();
             this.contenedor = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblFecha = new System.Windows.Forms.Label();
             this.reloj = new System.Windows.Forms.Label();
@@ -56,7 +57,6 @@
             this.Logo = new System.Windows.Forms.Panel();
             this.nombreLogo = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.statusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.barraTitulo.SuspendLayout();
@@ -224,6 +224,15 @@
             this.contenedor.Name = "contenedor";
             this.contenedor.Size = new System.Drawing.Size(1020, 589);
             this.contenedor.TabIndex = 3;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.LightGray;
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(250, 56);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(520, 533);
+            this.panel4.TabIndex = 3;
             // 
             // panel1
             // 
@@ -418,15 +427,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.LightGray;
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(250, 56);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(520, 533);
-            this.panel4.TabIndex = 3;
             // 
             // statusStrip1
             // 
