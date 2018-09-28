@@ -64,6 +64,7 @@
             this.BtnBoton.TabIndex = 2;
             this.BtnBoton.Text = "Iniciar Sesión";
             this.BtnBoton.UseVisualStyleBackColor = false;
+            this.BtnBoton.Click += new System.EventHandler(this.BtnBoton_Click);
             // 
             // TxtClave
             // 

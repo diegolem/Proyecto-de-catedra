@@ -16,5 +16,10 @@ namespace Gestor_de_Laboratorio_Clinico
         {
             InitializeComponent();
         }
+
+        private void BtnBoton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
