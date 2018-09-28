@@ -118,25 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Microscopio-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Microscopio-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="e9241fdcfd59abd050866113be10454d-icono-de-estetoscopio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e9241fdcfd59abd050866113be10454d-icono-de-estetoscopio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kisspng-microscope-logo-computer-icons-microscope-5ada12a57ad372.0850062015242410615031" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-microscope-logo-computer-icons-microscope-5ada12a57ad372.0850062015242410615031.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dienteLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dienteLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng-health-care-pharmacy-clinic-medicine-5b5888c3238208.8760563615325288351455" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-health-care-pharmacy-clinic-medicine-5b5888c3238208.8760563615325288351455.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Microscopio-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Microscopio-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="clinic logo - Buscar con Google - Google Chrome" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clinic logo - Buscar con Google - Google Chrome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dienteLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dienteLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kisspng-microscope-logo-computer-icons-microscope-5ada12a57ad372.0850062015242410615031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-microscope-logo-computer-icons-microscope-5ada12a57ad372.0850062015242410615031.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="estetoscopio-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\estetoscopio-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e9241fdcfd59abd050866113be10454d-icono-de-estetoscopio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e9241fdcfd59abd050866113be10454d-icono-de-estetoscopio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo-udb-letra-blanca-transparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo-udb-letra-blanca-transparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

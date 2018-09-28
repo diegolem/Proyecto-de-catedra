@@ -125,6 +125,16 @@ namespace Gestor_de_Laboratorio_Clinico.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_udb_letra_blanca_transparente {
+            get {
+                object obj = ResourceManager.GetObject("logo-udb-letra-blanca-transparente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Microscopio_01 {
             get {
                 object obj = ResourceManager.GetObject("Microscopio-01", resourceCulture);
