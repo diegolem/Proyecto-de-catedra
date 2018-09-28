@@ -38,3 +38,6 @@ C:\Users\DELL\Desktop\POO\Proyecto\Proyecto-de-catedra\Gestor de Laboratorio Cli
 C:\Users\DELL\Desktop\POO\Proyecto\Proyecto-de-catedra\Gestor de Laboratorio Clinico\Gestor de Laboratorio Clinico\obj\Debug\Gestor_de_Laboratorio_Clinico.Login.resources
 C:\Users\DELL\Desktop\POO\Proyecto\Proyecto-de-catedra\Gestor de Laboratorio Clinico\Gestor de Laboratorio Clinico\obj\Debug\Gestor_de_Laboratorio_Clinico.Properties.Resources.resources
 C:\Users\DELL\Desktop\POO\Proyecto\Proyecto-de-catedra\Gestor de Laboratorio Clinico\Gestor de Laboratorio Clinico\obj\Debug\Gestor de Laboratorio Clinico.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de Laboratorio Clinico\Gestor de Laboratorio Clinico\bin\Debug\Gestor de Laboratorio Clinico.exe.config
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de Laboratorio Clinico\Gestor de Laboratorio Clinico\obj\Debug\Gestor de Laboratorio Clinico.exe
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de Laboratorio Clinico\Gestor de Laboratorio Clinico\obj\Debug\Gestor de Laboratorio Clinico.pdb
