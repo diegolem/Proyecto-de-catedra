@@ -1,0 +1,9 @@
+C:\Users\Jeffry\source\repos\SQLCapa\capaNegocios\bin\Debug\capaNegocios.dll
+C:\Users\Jeffry\source\repos\SQLCapa\capaNegocios\bin\Debug\capaNegocios.pdb
+C:\Users\Jeffry\source\repos\SQLCapa\capaNegocios\bin\Debug\capaDatos.dll
+C:\Users\Jeffry\source\repos\SQLCapa\capaNegocios\bin\Debug\capaDatos.pdb
+C:\Users\Jeffry\source\repos\SQLCapa\capaNegocios\obj\Debug\capaNegocios.csprojAssemblyReference.cache
+C:\Users\Jeffry\source\repos\SQLCapa\capaNegocios\obj\Debug\capaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Jeffry\source\repos\SQLCapa\capaNegocios\obj\Debug\capaNegocios.csproj.CopyComplete
+C:\Users\Jeffry\source\repos\SQLCapa\capaNegocios\obj\Debug\capaNegocios.dll
+C:\Users\Jeffry\source\repos\SQLCapa\capaNegocios\obj\Debug\capaNegocios.pdb
