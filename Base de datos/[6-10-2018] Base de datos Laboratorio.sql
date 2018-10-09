@@ -8,7 +8,7 @@
 use master
 go
 
-drop database IF EXISTS GestorDeClinica --para borrar la base de datos, hay que estar en el loogin de tu pc normal
+ --para borrar la base de datos, hay que estar en el loogin de tu pc normal
 GO
 
 create database GestorDeClinica

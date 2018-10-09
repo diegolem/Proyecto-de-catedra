@@ -20,11 +20,72 @@ namespace capaNegocios
         string fk_emisor;
         string mensaje;
 
-        public int Id { get => id; set => id = value; }
-        public string Emisor { get => emisor; set => emisor = value; }
-        public string Receptor { get => receptor; set => receptor = value; }
-        public string Fk_emisor { get => fk_emisor; set => fk_emisor = value; }
-        public string Mensaje { get => mensaje; set => mensaje = value; }
+        public int Id1
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
+            }
+        }
+        public string Emisor1
+        {
+            get
+            {
+                return emisor;
+            }
+
+            set
+            {
+                emisor = value;
+            }
+        }
+        public string Receptor1
+        {
+            get
+            {
+                return receptor;
+            }
+
+            set
+            {
+                receptor = value;
+            }
+        }
+        public string Fk_emisor1
+        {
+            get
+            {
+                return fk_emisor;
+            }
+
+            set
+            {
+                fk_emisor = value;
+            }
+        }
+
+        public string Mensaje1
+        {
+            get
+            {
+                return mensaje;
+            }
+
+            set
+            {
+                mensaje = value;
+            }
+        }
+
+
+
+
+
 
 
         //constructor
@@ -33,21 +94,21 @@ namespace capaNegocios
         public SqlDataReader verNotificacion()
         {
             SqlDataReader verNotificacion;
-            verNotificacion = objDato.verNotificacion(fk_emisor);
+            verNotificacion = objDato.verNotificacion(Fk_emisor1);
             return verNotificacion;
         }
 
         public SqlDataReader enviarNotificacion()
         {
             SqlDataReader enviarNotificacion;
-            enviarNotificacion = objDato.enviarNotificacion(receptor,emisor,Mensaje,receptor);
+            enviarNotificacion = objDato.enviarNotificacion(Receptor1,Emisor1,Mensaje1,Receptor1);
             return enviarNotificacion;
         }
 
         public SqlDataReader borrarNotificacion()
         {
             SqlDataReader borrarNotificacion;
-            borrarNotificacion = objDato.borrarNotificacion(id);
+            borrarNotificacion = objDato.borrarNotificacion(Id1);
             return borrarNotificacion;
         }
     }

@@ -9,7 +9,7 @@ using System.Data;
 
 namespace capaNegocios
 {
-    public class CNDoctor: CNEmpleado //la clase tiene que ser publica, y hereda los datos de CNEmpleados
+    public class CNDoctor : CNEmpleado //la clase tiene que ser publica, y hereda los datos de CNEmpleados
     {
         //Encapsular variables
         private CDDoctor objDato = new CDDoctor();
@@ -18,8 +18,49 @@ namespace capaNegocios
         private string descripcion;
         private string fk_empleado;
 
-        public string Especialidad { get => especialidad; set => especialidad = value; }
-        public string Descripcion { get => descripcion; set => descripcion = value; }
-        public string Fk_empleado { get => fk_empleado; set => fk_empleado = value; }
+        public string Especialidad
+        {
+            get
+            {
+                return especialidad;
+            }
+
+            set
+            {
+                especialidad = value;
+            }
+        }
+        public string Descripcion
+        {
+            get
+            {
+                return descripcion;
+            }
+
+            set
+            {
+                descripcion = value;
+            }
+        }
+        public string Fk_empleado1
+        {
+            get
+            {
+                return fk_empleado;
+            }
+
+            set
+            {
+                fk_empleado = value;
+            }
+        }
     }
 }
+ 
+
+
+
+
+
+
+
