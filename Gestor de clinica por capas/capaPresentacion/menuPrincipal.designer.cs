@@ -38,10 +38,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnTemas = new System.Windows.Forms.Button();
             this.btnNotificaciones = new System.Windows.Forms.Button();
-            this.contNotificicaciones = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.panelContTemas = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
@@ -56,6 +55,9 @@
             this.button7 = new System.Windows.Forms.Button();
             this.btnMiPerfil = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.contNotificicaciones = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.listNotificaciones = new System.Windows.Forms.ListBox();
             this.contenedor = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -79,7 +81,7 @@
             this.btnClinicaCitas = new System.Windows.Forms.Button();
             this.btnClinicaDoctores = new System.Windows.Forms.Button();
             this.btnClinica = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.PanelBotonLaboratorio = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.btnConsultas = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -98,13 +100,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuOpciones.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.contNotificicaciones.SuspendLayout();
-            this.panel13.SuspendLayout();
             this.panelContTemas.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel9.SuspendLayout();
+            this.contNotificicaciones.SuspendLayout();
+            this.panel13.SuspendLayout();
             this.contenedor.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FotoPerfil)).BeginInit();
@@ -114,7 +117,7 @@
             this.menuPrincipal.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
+            this.PanelBotonLaboratorio.SuspendLayout();
             this.Logo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.statusStrip1.SuspendLayout();
@@ -190,8 +193,8 @@
             // 
             this.menuOpciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(81)))), ((int)(((byte)(112)))));
             this.menuOpciones.Controls.Add(this.panel2);
-            this.menuOpciones.Controls.Add(this.contNotificicaciones);
             this.menuOpciones.Controls.Add(this.panelContTemas);
+            this.menuOpciones.Controls.Add(this.contNotificicaciones);
             this.menuOpciones.Dock = System.Windows.Forms.DockStyle.Right;
             this.menuOpciones.Location = new System.Drawing.Point(770, 0);
             this.menuOpciones.Name = "menuOpciones";
@@ -236,52 +239,9 @@
             this.btnNotificaciones.UseVisualStyleBackColor = false;
             this.btnNotificaciones.Click += new System.EventHandler(this.btnNotificaciones_Click);
             // 
-            // contNotificicaciones
-            // 
-            this.contNotificicaciones.Controls.Add(this.panel13);
-            this.contNotificicaciones.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.contNotificicaciones.Location = new System.Drawing.Point(0, 0);
-            this.contNotificicaciones.Name = "contNotificicaciones";
-            this.contNotificicaciones.Size = new System.Drawing.Size(250, 589);
-            this.contNotificicaciones.TabIndex = 1;
-            // 
-            // panel13
-            // 
-            this.panel13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel13.Controls.Add(this.listBox1);
-            this.panel13.Location = new System.Drawing.Point(0, 51);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(247, 538);
-            this.panel13.TabIndex = 1;
-            // 
-            // listBox1
-            // 
-            this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(81)))), ((int)(((byte)(112)))));
-            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.ForeColor = System.Drawing.Color.White;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Items.AddRange(new object[] {
-            "[Dra. Mia Johanson] --Cirugia en la sala 3 (Urgente)",
-            "[Sistema] --Paciente Mauricio Solorzano tiene cita a las 3:00 PM",
-            "[Dr.  Jonathan ] --Los resultados de Lucas fueron analizados, Tiene las plaquetas" +
-                " bajas",
-            "[Secretaria Sofia] --Lucas salio del laboratorio y trajo los resultados.",
-            "[Dra. Mia Johanson] --Envie a Lucas al laboratorio a hacerse un examen de sangre." +
-                "",
-            "[Secretaria Milena] --La medicina que le recetó a Josué está desfasada en el inve" +
-                "ntario."});
-            this.listBox1.Location = new System.Drawing.Point(0, 0);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(247, 538);
-            this.listBox1.TabIndex = 0;
-            // 
             // panelContTemas
             // 
+            this.panelContTemas.Controls.Add(this.panel6);
             this.panelContTemas.Controls.Add(this.panel11);
             this.panelContTemas.Controls.Add(this.panel10);
             this.panelContTemas.Controls.Add(this.panel9);
@@ -292,6 +252,28 @@
             this.panelContTemas.Size = new System.Drawing.Size(250, 589);
             this.panelContTemas.TabIndex = 2;
             this.panelContTemas.Visible = false;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel6.Controls.Add(this.label2);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 409);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(250, 29);
+            this.panel6.TabIndex = 9;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 14.25F);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(83, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 22);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Creditos";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel11
             // 
@@ -483,6 +465,40 @@
             this.panel8.Size = new System.Drawing.Size(250, 21);
             this.panel8.TabIndex = 5;
             // 
+            // contNotificicaciones
+            // 
+            this.contNotificicaciones.Controls.Add(this.panel13);
+            this.contNotificicaciones.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.contNotificicaciones.Location = new System.Drawing.Point(0, 0);
+            this.contNotificicaciones.Name = "contNotificicaciones";
+            this.contNotificicaciones.Size = new System.Drawing.Size(250, 589);
+            this.contNotificicaciones.TabIndex = 1;
+            // 
+            // panel13
+            // 
+            this.panel13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel13.Controls.Add(this.listNotificaciones);
+            this.panel13.Location = new System.Drawing.Point(0, 51);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(247, 451);
+            this.panel13.TabIndex = 1;
+            this.panel13.Paint += new System.Windows.Forms.PaintEventHandler(this.panel13_Paint);
+            // 
+            // listNotificaciones
+            // 
+            this.listNotificaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(81)))), ((int)(((byte)(112)))));
+            this.listNotificaciones.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listNotificaciones.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listNotificaciones.ForeColor = System.Drawing.Color.White;
+            this.listNotificaciones.FormattingEnabled = true;
+            this.listNotificaciones.ItemHeight = 15;
+            this.listNotificaciones.Location = new System.Drawing.Point(0, 0);
+            this.listNotificaciones.Name = "listNotificaciones";
+            this.listNotificaciones.Size = new System.Drawing.Size(247, 435);
+            this.listNotificaciones.TabIndex = 0;
+            // 
             // contenedor
             // 
             this.contenedor.BackColor = System.Drawing.Color.Gainsboro;
@@ -609,7 +625,7 @@
             this.menuPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.menuPrincipal.Controls.Add(this.panel7);
             this.menuPrincipal.Controls.Add(this.panel5);
-            this.menuPrincipal.Controls.Add(this.panel6);
+            this.menuPrincipal.Controls.Add(this.PanelBotonLaboratorio);
             this.menuPrincipal.Controls.Add(this.Logo);
             this.menuPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
@@ -626,11 +642,10 @@
             this.panel7.Controls.Add(this.button13);
             this.panel7.Controls.Add(this.btnOdontologia);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 240);
+            this.panel7.Location = new System.Drawing.Point(0, 220);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(250, 210);
             this.panel7.TabIndex = 1;
-            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // button10
             // 
@@ -704,10 +719,11 @@
             this.btnOdontologia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOdontologia.Location = new System.Drawing.Point(0, 0);
             this.btnOdontologia.Name = "btnOdontologia";
-            this.btnOdontologia.Size = new System.Drawing.Size(250, 49);
+            this.btnOdontologia.Size = new System.Drawing.Size(250, 50);
             this.btnOdontologia.TabIndex = 6;
             this.btnOdontologia.Text = "           Odontología";
             this.btnOdontologia.UseVisualStyleBackColor = true;
+            this.btnOdontologia.Click += new System.EventHandler(this.btnOdontologia_Click);
             // 
             // panel5
             // 
@@ -717,7 +733,7 @@
             this.panel5.Controls.Add(this.btnClinicaDoctores);
             this.panel5.Controls.Add(this.btnClinica);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 170);
+            this.panel5.Location = new System.Drawing.Point(0, 150);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(250, 70);
             this.panel5.TabIndex = 5;
@@ -794,24 +810,24 @@
             this.btnClinica.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClinica.Location = new System.Drawing.Point(0, 2);
             this.btnClinica.Name = "btnClinica";
-            this.btnClinica.Size = new System.Drawing.Size(250, 70);
+            this.btnClinica.Size = new System.Drawing.Size(250, 50);
             this.btnClinica.TabIndex = 4;
             this.btnClinica.Text = "Clinica";
             this.btnClinica.UseVisualStyleBackColor = true;
             // 
-            // panel6
+            // PanelBotonLaboratorio
             // 
-            this.panel6.Controls.Add(this.button9);
-            this.panel6.Controls.Add(this.btnConsultas);
-            this.panel6.Controls.Add(this.button8);
-            this.panel6.Controls.Add(this.btnCitas);
-            this.panel6.Controls.Add(this.btnIngresarDoctorLab);
-            this.panel6.Controls.Add(this.btnLaboratorio);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 100);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(250, 70);
-            this.panel6.TabIndex = 0;
+            this.PanelBotonLaboratorio.Controls.Add(this.button9);
+            this.PanelBotonLaboratorio.Controls.Add(this.btnConsultas);
+            this.PanelBotonLaboratorio.Controls.Add(this.button8);
+            this.PanelBotonLaboratorio.Controls.Add(this.btnCitas);
+            this.PanelBotonLaboratorio.Controls.Add(this.btnIngresarDoctorLab);
+            this.PanelBotonLaboratorio.Controls.Add(this.btnLaboratorio);
+            this.PanelBotonLaboratorio.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PanelBotonLaboratorio.Location = new System.Drawing.Point(0, 100);
+            this.PanelBotonLaboratorio.Name = "PanelBotonLaboratorio";
+            this.PanelBotonLaboratorio.Size = new System.Drawing.Size(250, 50);
+            this.PanelBotonLaboratorio.TabIndex = 0;
             // 
             // button9
             // 
@@ -899,12 +915,13 @@
             this.btnLaboratorio.ForeColor = System.Drawing.Color.White;
             this.btnLaboratorio.Image = global::capaPresentacion.Properties.Resources.Microscopio_01;
             this.btnLaboratorio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLaboratorio.Location = new System.Drawing.Point(0, -3);
+            this.btnLaboratorio.Location = new System.Drawing.Point(0, 2);
             this.btnLaboratorio.Name = "btnLaboratorio";
-            this.btnLaboratorio.Size = new System.Drawing.Size(250, 70);
+            this.btnLaboratorio.Size = new System.Drawing.Size(250, 50);
             this.btnLaboratorio.TabIndex = 5;
             this.btnLaboratorio.Text = "         Laboratorio";
             this.btnLaboratorio.UseVisualStyleBackColor = true;
+            this.btnLaboratorio.Click += new System.EventHandler(this.btnLaboratorio_Click);
             // 
             // Logo
             // 
@@ -979,14 +996,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.menuOpciones.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.contNotificicaciones.ResumeLayout(false);
-            this.panel13.ResumeLayout(false);
             this.panelContTemas.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             this.panel9.ResumeLayout(false);
+            this.contNotificicaciones.ResumeLayout(false);
+            this.panel13.ResumeLayout(false);
             this.contenedor.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -997,7 +1016,7 @@
             this.menuPrincipal.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
+            this.PanelBotonLaboratorio.ResumeLayout(false);
             this.Logo.ResumeLayout(false);
             this.Logo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -1038,7 +1057,7 @@
         private System.Windows.Forms.Button btnOdontologia;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button btnClinica;
-        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel PanelBotonLaboratorio;
         private System.Windows.Forms.Button btnLaboratorio;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel11;
@@ -1056,7 +1075,7 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button btnMiPerfil;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listNotificaciones;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Button btnCitas;
         private System.Windows.Forms.Button btnIngresarDoctorLab;
@@ -1071,6 +1090,8 @@
         private System.Windows.Forms.Button btnClinicaDoctores;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button btnConsultas;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label2;
     }
 }
 

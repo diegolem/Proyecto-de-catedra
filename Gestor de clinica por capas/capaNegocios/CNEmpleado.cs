@@ -14,6 +14,7 @@ namespace capaNegocios
         //Encapsular variables
         private CDEmpleado objDato = new CDEmpleado();//instancia a la capa datos de empleados
         //variables
+        private string id;
         private String _Nombre;
         private String _Apellido;
         private String _Direccion;
@@ -26,6 +27,7 @@ namespace capaNegocios
         private String _esquema;
 
         //Metdos GET y SET --> para manejo de variables
+        public string Id { get => id; set => id = value; }
         public string Nombre { get => _Nombre; set => _Nombre = value; }
         public string Apellido { get => _Apellido; set => _Apellido = value; }
         public string Direccion { get => _Direccion; set => _Direccion = value; }
@@ -62,6 +64,7 @@ namespace capaNegocios
         }
         public string Fk_IDClinica { get => _Fk_IDClinica; set => _Fk_IDClinica = value; }
         public string Esquema { get => _esquema; set => _esquema = value; }
+
 
         //constructor
         public CNEmpleado() { }

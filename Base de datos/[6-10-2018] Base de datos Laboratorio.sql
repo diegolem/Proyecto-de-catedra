@@ -230,13 +230,21 @@ GO
 	--creando mantenimiento notificaciones
 
 		create procedure clinicas.verNotificacion(
-			@id_empleado int--//para verificar de quien es el mensaje
+			@id_empleado char(6)--//para verificar de quien es el mensaje
 		)
 		as
 			select * from clinicas.notificacion
 			where FK_IDEmpleado = @id_empleado
 		GO
 
+		insert into clinicas.notificacion values('AdminCL','administrador','--Hola esta es una prueva de notificacion gracias!','admin0')
+		GO
+		insert into clinicas.notificacion values('AdminCL','administrador','--gracias! 2','admin0')
+		GO
+		insert into clinicas.notificacion values('AdminCL','administrador','--jeje 2','admin0')
+		GO
+		exec clinicas.verNotificacion @id_empleado = 'admin0'
+		GO
 		create procedure clinicas.enviarNotificacion(
 			@id_receptor char(6),
 			@emisor varchar(50),

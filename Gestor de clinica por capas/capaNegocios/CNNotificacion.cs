@@ -30,9 +30,9 @@ namespace capaNegocios
         //constructor
         public CNNotificacion() { }
         //funciones o metodos
-        public SqlDataReader verNotificacion()
+        public List<object> verNotificacion()
         {
-            SqlDataReader verNotificacion;
+            List<object> verNotificacion;
             verNotificacion = objDato.verNotificacion(fk_emisor);
             return verNotificacion;
         }

@@ -35,12 +35,22 @@
             this.TxtUsuario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+=======
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+>>>>>>> d191756b0270027784f014adec178666a778fc6e
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+<<<<<<< HEAD
+=======
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+>>>>>>> d191756b0270027784f014adec178666a778fc6e
             this.groupBox1.Controls.Add(this.BtnBoton);
             this.groupBox1.Controls.Add(this.TxtClave);
             this.groupBox1.Controls.Add(this.TxtUsuario);
@@ -64,7 +74,10 @@
             this.BtnBoton.TabIndex = 2;
             this.BtnBoton.Text = "Iniciar Sesión";
             this.BtnBoton.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             this.BtnBoton.Click += new System.EventHandler(this.BtnBoton_Click);
+=======
+>>>>>>> d191756b0270027784f014adec178666a778fc6e
             // 
             // TxtClave
             // 
@@ -99,12 +112,43 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(139, 177);
+=======
+            this.label2.Location = new System.Drawing.Point(21, 184);
+>>>>>>> d191756b0270027784f014adec178666a778fc6e
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(151, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Universidad Don Bosco";
             // 
+<<<<<<< HEAD
+=======
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(33, 55);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 16);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Usuario";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(33, 135);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(77, 16);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Contraseña";
+            // 
+>>>>>>> d191756b0270027784f014adec178666a778fc6e
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -134,5 +178,10 @@
         private System.Windows.Forms.TextBox TxtUsuario;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+>>>>>>> d191756b0270027784f014adec178666a778fc6e
     }
 }

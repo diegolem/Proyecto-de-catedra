@@ -14,13 +14,22 @@ namespace capaDatos
         private CDConexion Conexion = new CDConexion();
         private SqlDataReader leer;
 
-        public SqlDataReader verNotificacion(string idEmpleado)
+        public List<object> verNotificacion(string idEmpleado)
         {
             SqlCommand comando = new SqlCommand("clinicas.verNotificacion", Conexion.AbrirConexion());
             comando.CommandType = CommandType.StoredProcedure;
             comando.Parameters.AddWithValue("@id_empleado", idEmpleado);
             leer = comando.ExecuteReader();
-            return leer;
+            List<object> notificaciones = new List<object>();
+            int index = 0;
+            while (leer.Read()) {
+                object[] datos = new object[leer.FieldCount];
+                leer.GetValues(datos);
+                notificaciones.Insert(index, datos);
+                index++;
+            }
+            Conexion.cerrarConexion();
+            return notificaciones;
         }
 
         public SqlDataReader enviarNotificacion(string receptor, string emisor, string mensaje, string idReceptor)

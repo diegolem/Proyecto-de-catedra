@@ -24,8 +24,7 @@ namespace capaPresentacion
             /*Bucle que hace que inicie session*/
             //el siguiente bucle comentado puede ser reutilizado
             //creo un objeto de tipo CNEmpleado(clase que se crea en la capa de negocios) para eso mando a llamar la capa (parte superior, "using capaNegocios;")
-            CNEmpleado objEmpleado = new CNEmpleado();
-                //mando a llamar el procedimiento almacenado
+            CNEmpleado objEmpleado = new CNEmpleado();                //mando a llamar el procedimiento almacenado
                 SqlDataReader Logear;
                 //asigno variables al objeto (getters y setters creados en la clase de negocios)
                 objEmpleado.Usuario = txtUsuario.Text;
@@ -41,7 +40,7 @@ namespace capaPresentacion
                     {
                         lblErrores.Text = "Un sistema clínico porque la tecnología\r\nes una mejor forma de hacer tu trabajo\r\nmás fácil y sencillo.\r\n\r\nUniversidad Don Bosco.";
                         lblErrores.ForeColor = Color.White;
-
+                        MenuVertical.usuarioSesion = "admin0";
                         MenuVertical panel = new MenuVertical();
                         this.Hide();
                         panel.Visible = true;
