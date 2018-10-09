@@ -27,11 +27,11 @@ namespace capaPresentacion
             CNEmpleado objEmpleado = new CNEmpleado();                //mando a llamar el procedimiento almacenado
                 SqlDataReader Logear;
                 //asigno variables al objeto (getters y setters creados en la clase de negocios)
-                objEmpleado.Usuario = txtUsuario.Text;
+                objEmpleado.Usuario1 = txtUsuario.Text;
                 objEmpleado.Pass = txtPass.Text;
                 //de aqui en adelante juego con las variables seteadas en la capa negocios para la programacion del login
                 
-            if (objEmpleado.Usuario == txtUsuario.Text)
+            if (objEmpleado.Usuario1 == txtUsuario.Text)
             {
                 if (objEmpleado.Pass == txtPass.Text)
                 {
@@ -62,7 +62,7 @@ namespace capaPresentacion
                 }
             }
             else {
-                lblErrores.Text = objEmpleado.Usuario;
+                lblErrores.Text = objEmpleado.Usuario1;
                 lblErrores.ForeColor = Color.Red;
             }
         }

@@ -14,7 +14,7 @@ namespace capaNegocios
         //Encapsular variables
         private CDEmpleado objDato = new CDEmpleado();//instancia a la capa datos de empleados
         //variables
-        private string id;
+        private String _id;
         private String _Nombre;
         private String _Apellido;
         private String _Direccion;
@@ -27,15 +27,72 @@ namespace capaNegocios
         private String _esquema;
 
         //Metdos GET y SET --> para manejo de variables
-        public string Id { get => id; set => id = value; }
-        public string Nombre { get => _Nombre; set => _Nombre = value; }
-        public string Apellido { get => _Apellido; set => _Apellido = value; }
-        public string Direccion { get => _Direccion; set => _Direccion = value; }
-        public string Telefono { get => _Telefono; set => _Telefono = value; }
-        public string Dui { get => _Dui; set => _Dui = value; }
-        public string Genero { get => _Genero; set => _Genero = value; }
-        public string Usuario {
-            get => _usuario;
+
+        public string id {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+        public string Nombre
+        {
+            get { return _Nombre; }
+            set { _Nombre = value; }
+        }
+        public string Apellido
+        {
+            get { return _Apellido; }
+            set { _Apellido = value; }
+        }
+
+        
+        public string Direccion {
+            get { return _Direccion; } 
+                set { _Direccion = value;  }
+            }
+        public string Telefono1
+        {
+            get
+            {
+                return _Telefono;
+            }
+
+            set
+            {
+                _Telefono = value;
+            }
+        }
+        public string Dui
+        {
+            get
+            {
+                return _Dui;
+            }
+
+            set
+            {
+                _Dui = value;
+            }
+        }
+        public string Genero1
+        {
+            get
+            {
+                return _Genero;
+            }
+
+            set
+            {
+                _Genero = value;
+            }
+        }
+        public string Usuario1
+        {
+            get
+            {
+                return _usuario;
+            }
+
+
             set
             {
                 if (value == "USUARIO")
@@ -48,8 +105,12 @@ namespace capaNegocios
                 }
             }
         }
+       
         public string Pass {
-            get => _pass;
+            get
+            {
+                return _pass;
+            }
             set
             {
                 if (value == "CONTRASEÑA")
@@ -62,8 +123,36 @@ namespace capaNegocios
                 }
             }
         }
-        public string Fk_IDClinica { get => _Fk_IDClinica; set => _Fk_IDClinica = value; }
-        public string Esquema { get => _esquema; set => _esquema = value; }
+        public string Fk_IDClinica1
+        {
+            get
+            {
+                return _Fk_IDClinica;
+            }
+
+            set
+            {
+                _Fk_IDClinica = value;
+            }
+        }
+        public string Esquema1
+        {
+            get
+            {
+                return _esquema;
+            }
+
+            set
+            {
+                _esquema = value;
+            }
+        }
+
+
+
+
+
+
 
 
         //constructor
@@ -71,7 +160,7 @@ namespace capaNegocios
         //funciones o metodos
         public SqlDataReader IniciarSesion() {
             SqlDataReader Logear;
-            Logear = objDato.iniciarSesion(Usuario, Pass);
+            Logear = objDato.iniciarSesion(Usuario1, Pass);
             return Logear;
         }
         

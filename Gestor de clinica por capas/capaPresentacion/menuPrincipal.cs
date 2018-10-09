@@ -111,7 +111,7 @@ namespace capaPresentacion
             //Creo un objeto tipo lista, donde almacenaré lo que me retorna el procedimiento
             List<object> verNotificacion = new List<object>();
             //asigno variables al objeto (getters y setters creados en la clase de negocios) esto servirá para saber de quien es la notificacion
-            objNotificacion.Fk_emisor = MenuVertical.usuarioSesion;
+//            objNotificacion.Fk_emisor = MenuVertical.usuarioSesion;
             //mando a llamar el procedimiento y lo almaceno en verNotificacion(el que cree arriba)
             verNotificacion = objNotificacion.verNotificacion();
             try
@@ -122,7 +122,7 @@ namespace capaPresentacion
                     listNotificaciones.Items.Add("[" + datos[1].ToString().Replace(" ", "") + "]--" + datos[3].ToString());//construllo el formato de la notificacion
                 }
             }
-            catch (Exception ex) {
+            catch (Exception ) {
 
             }
 
@@ -207,6 +207,18 @@ namespace capaPresentacion
             fecha += anio;
             reloj.Text = time;
             lblFecha.Text = fecha;
+
+
+            //el siguiente bucle comentado puede ser reutilizado
+            //creo un objeto de tipo CNEmpleado(clase que se crea en la capa de negocios)
+            CNEmpleado objEmpleado = new CNEmpleado();
+            //mando a llamar el procedimiento almacenado
+          //  SqlDataReader Logear;
+            //asigno variables al objeto (getters y setters creados en la clase de negocios)
+         //   objEmpleado.Usuario = txtUsuario.Text;
+          //  objEmpleado.Pass = txtPass.Text;
+            //de aqui en adelante juego con las variables seteadas en la capa negocios para la programacion del login
+
 
 
 
