@@ -20,7 +20,7 @@ namespace capaNegocios
         string fk_emisor;
         string mensaje;
 
-        public int Id1
+        public int Id
         {
             get
             {
@@ -96,8 +96,6 @@ namespace capaNegocios
 
             List<object> verNotificacion;
             verNotificacion = objDato.verNotificacion(fk_emisor);
-            
-            verNotificacion = objDato.verNotificacion(Fk_emisor1);
 
             return verNotificacion;
         }
@@ -112,7 +110,7 @@ namespace capaNegocios
         public SqlDataReader borrarNotificacion()
         {
             SqlDataReader borrarNotificacion;
-            borrarNotificacion = objDato.borrarNotificacion(Id1);
+            borrarNotificacion = objDato.borrarNotificacion(Id);
             return borrarNotificacion;
         }
     }
