@@ -14,20 +14,31 @@ C:\Users\Jeffry\source\repos\SQLCapa\capaPresentacion\obj\Debug\capaPresentacion
 C:\Users\Jeffry\source\repos\SQLCapa\capaPresentacion\obj\Debug\capaPresentacion.csproj.CopyComplete
 C:\Users\Jeffry\source\repos\SQLCapa\capaPresentacion\obj\Debug\capaPresentacion.exe
 C:\Users\Jeffry\source\repos\SQLCapa\capaPresentacion\obj\Debug\capaPresentacion.pdb
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csprojAssemblyReference.cache
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.Login.resources
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.MenuVertical.resources
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.Properties.Resources.resources
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csproj.GenerateResource.cache
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csproj.CoreCompileInputs.cache
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.exe
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.pdb
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaPresentacion.exe.config
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaPresentacion.exe
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaPresentacion.pdb
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaNegocios.dll
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaDatos.dll
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaNegocios.pdb
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaDatos.pdb
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csproj.CopyComplete
-C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.MiPerfil.resources
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaPresentacion.exe.config
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.exe
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.pdb
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.Login.resources
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.MenuVertical.resources
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.Properties.Resources.resources
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaPresentacion.exe
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaPresentacion.pdb
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaNegocios.dll
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaDatos.dll
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaNegocios.pdb
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaDatos.pdb
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaPresentacion.exe.config
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaPresentacion.exe
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaPresentacion.pdb
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csprojAssemblyReference.cache
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.Login.resources
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.MenuVertical.resources
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.Properties.Resources.resources
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csproj.GenerateResource.cache
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csproj.CopyComplete
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.exe
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.pdb
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaDatosNegocios.dll
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaDatosNegocios.pdb

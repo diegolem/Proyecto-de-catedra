@@ -58,12 +58,6 @@
     <Compile Include="menuPrincipal.designer.cs">
       <DependentUpon>menuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="MiPerfil.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MiPerfil.Designer.cs">
-      <DependentUpon>MiPerfil.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Login.resx">
@@ -71,9 +65,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="menuPrincipal.resx">
       <DependentUpon>menuPrincipal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MiPerfil.resx">
-      <DependentUpon>MiPerfil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -129,9 +120,9 @@
     <None Include="Resources\Doctor.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\capaNegocios\capaNegocios.csproj">
-      <Project>{5e714632-f61f-4f11-9bd8-e4f753893112}</Project>
-      <Name>capaNegocios</Name>
+    <ProjectReference Include="..\capaDatosNegocios\capaDatosNegocios.csproj">
+      <Project>{83386120-a492-4c7e-a73d-41b084a3e068}</Project>
+      <Name>capaDatosNegocios</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
