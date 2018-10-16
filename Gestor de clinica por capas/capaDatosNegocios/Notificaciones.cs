@@ -108,13 +108,17 @@ namespace capaDatosNegocios
         //    return borrarNotificacion;
         //}
 
-        public SqlDataReader verNotificacion(string idEmpleado)
+        public List<object> verNotificacion()
         {
             SqlCommand comando = new SqlCommand("clinicas.verNotificacion", Conexion.AbrirConexion());
             comando.CommandType = CommandType.StoredProcedure;
-            comando.Parameters.AddWithValue("@id_empleado", idEmpleado);
+            comando.Parameters.AddWithValue("@id_empleado", Fk_emisor1);
             leer = comando.ExecuteReader();
-            return leer;
+            List<object> listaDeNotificaciones = new List<object>();
+            foreach (string notificacion in leer) {
+                listaDeNotificaciones.Add(notificacion);
+            }
+            return listaDeNotificaciones;
         }
 
         public SqlDataReader enviarNotificacion(string receptor, string emisor, string mensaje, string idReceptor)
