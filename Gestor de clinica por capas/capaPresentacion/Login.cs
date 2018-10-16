@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using capaNegocios;
+using capaDatosNegocios;
 
 namespace capaPresentacion
 {
@@ -24,11 +24,11 @@ namespace capaPresentacion
             /*Bucle que hace que inicie session*/
             //el siguiente bucle comentado puede ser reutilizado
             //creo un objeto de tipo CNEmpleado(clase que se crea en la capa de negocios) para eso mando a llamar la capa (parte superior, "using capaNegocios;")
-            CNEmpleado objEmpleado = new CNEmpleado();                //mando a llamar el procedimiento almacenado
+            Empleado objEmpleado = new Empleado();
+                //mando a llamar el procedimiento almacenado
                 SqlDataReader Logear;
                 //asigno variables al objeto (getters y setters creados en la clase de negocios)
                 objEmpleado.Usuario1 = txtUsuario.Text;
-            MenuVertical.usuarioSesion = txtUsuario.Text;
                 objEmpleado.Pass = txtPass.Text;
                 //de aqui en adelante juego con las variables seteadas en la capa negocios para la programacion del login
                 
@@ -41,6 +41,7 @@ namespace capaPresentacion
                     {
                         lblErrores.Text = "Un sistema clínico porque la tecnología\r\nes una mejor forma de hacer tu trabajo\r\nmás fácil y sencillo.\r\n\r\nUniversidad Don Bosco.";
                         lblErrores.ForeColor = Color.White;
+
                         MenuVertical panel = new MenuVertical();
                         this.Hide();
                         panel.Visible = true;
@@ -142,6 +143,11 @@ namespace capaPresentacion
             {
                 BtnBoton_Click(null, e);
             }
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

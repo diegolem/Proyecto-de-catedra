@@ -2,33 +2,21 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using capaNegocios;
+using capaDatosNegocios;
 
 namespace capaPresentacion
 {
     public partial class MenuVertical : Form
     {
-        //variables Globales para el control de menuprincipal recuerden ponerle :Menuvertical despues del nombre de la clase para que su clase herede las variables
-
-            /*con estas variables van a poder acceder a caracteristicas del menu principal*/
-        public static string usuarioSesion;//pueden usar esta variable para saber el id del usuario que se ha logeado, no le asignen valores por que se le asigna desde el login
-        public string nombreSesion;
-        public string rolSesion;
-        public string clinicasesion;
-        public string errores;// con esta variable pueden poner errores en la barra de estado del menu
-        
         Timer t = new Timer();
         public MenuVertical()
         {
             InitializeComponent();
-
-            //me quedé aqui para mandar a llamar las variables de sesion
         }
 
         private void btnSlide_Click(object sender, EventArgs e)
@@ -36,9 +24,6 @@ namespace capaPresentacion
             if (menuPrincipal.Width == 250)
             {
                 menuPrincipal.Width = 80;
-                panelBotonClinica.Height = 50;
-                PanelBotonLaboratorio.Height = 50;
-                
             }
             else
             {
@@ -61,7 +46,6 @@ namespace capaPresentacion
             {
                 menuOpciones.Width = 250;
             }
-            btnNotificaciones_Click(null, e);
         }
 
         private void MenuVertical_Load(object sender, EventArgs e)
@@ -74,8 +58,6 @@ namespace capaPresentacion
             t.Tick += new EventHandler(this.t_Tick);
 
             t.Start();
-
-            lblUsuarioActual.Text = usuarioSesion;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -108,30 +90,6 @@ namespace capaPresentacion
             btnNotificaciones.BackColor = Color.FromArgb(50, 81, 112);
             panelContTemas.Visible = false;
             contNotificicaciones.Visible = true;
-
-            listNotificaciones.Items.Clear();
-            //el siguiente bucle comentado puede ser reutilizado
-            //creo un objeto de tipo CNNotificacion(clase que se crea en la capa de negocios)
-            CNNotificacion objNotificacion = new CNNotificacion();
-            //Creo un objeto tipo lista, donde almacenaré lo que me retorna el procedimiento
-            List<object> verNotificacion = new List<object>();
-            //asigno variables al objeto (getters y setters creados en la clase de negocios) esto servirá para saber de quien es la notificacion
-            objNotificacion.Fk_emisor1 = MenuVertical.usuarioSesion;
-            //mando a llamar el procedimiento y lo almaceno en verNotificacion(el que cree arriba)
-            verNotificacion = objNotificacion.verNotificacion();
-            try
-            {
-                verNotificacion.Reverse(); //para invertir el orden, ya que las ultimas notificaciones deben mostrarse de primero en la lista
-                foreach (object[] datos in verNotificacion)
-                {//lleno la lista
-                    listNotificaciones.Items.Add("[" + datos[1].ToString().Replace(" ", "") + "]--" + datos[3].ToString());//construllo el formato de la notificacion
-                }
-            }
-            catch (Exception ) {
-
-            }
-
-            
         }
 
         private void btnTemas_Click(object sender, EventArgs e)
@@ -216,14 +174,13 @@ namespace capaPresentacion
 
             //el siguiente bucle comentado puede ser reutilizado
             //creo un objeto de tipo CNEmpleado(clase que se crea en la capa de negocios)
-            CNEmpleado objEmpleado = new CNEmpleado();
+            //CNEmpleado objEmpleado = new CNEmpleado();
             //mando a llamar el procedimiento almacenado
-          //  SqlDataReader Logear;
+            //  SqlDataReader Logear;
             //asigno variables al objeto (getters y setters creados en la clase de negocios)
-         //   objEmpleado.Usuario = txtUsuario.Text;
-          //  objEmpleado.Pass = txtPass.Text;
+            //   objEmpleado.Usuario = txtUsuario.Text;
+            //  objEmpleado.Pass = txtPass.Text;
             //de aqui en adelante juego con las variables seteadas en la capa negocios para la programacion del login
-
 
 
 
@@ -260,69 +217,7 @@ namespace capaPresentacion
 
         }
 
-        private void btnLaboratorio_Click(object sender, EventArgs e)
-        {
-            if (PanelBotonLaboratorio.Height == 210)
-            {
-                PanelBotonLaboratorio.Height= 50;
-            }
-            else
-            {
-                PanelBotonLaboratorio.Height = 210;
-                panelBotonClinica.Height = 50;
-                    
-                menuPrincipal.Width = 250;
-            }
-        }
-
-        private void panel13_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        
-
-        private void lblUsuarioActual_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnClinica_Click_1(object sender, EventArgs e)
-        {
-            if (panelBotonClinica.Height == 210)
-            {
-                panelBotonClinica.Height = 50;
-            }
-            else
-            {
-                panelBotonClinica.Height = 210;
-                PanelBotonLaboratorio.Height = 50;
-
-                menuPrincipal.Width = 250;
-            }
-        }
-
-        private void panel5_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void reloj_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button7_Click(object sender, EventArgs e)
+        private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
         }
