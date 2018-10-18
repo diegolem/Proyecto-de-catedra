@@ -30,10 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuVertical));
             this.barraTitulo = new System.Windows.Forms.Panel();
-            this.btnMaximizar = new System.Windows.Forms.PictureBox();
-            this.btnRestaurar = new System.Windows.Forms.PictureBox();
-            this.btnMinimizar = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.menuOpciones = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnTemas = new System.Windows.Forms.Button();
@@ -50,46 +46,46 @@
             this.panel10 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnPerfil = new System.Windows.Forms.Button();
             this.btnMiPerfil = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.contNotificicaciones = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.listNotificaciones = new System.Windows.Forms.ListBox();
             this.contenedor = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblFecha = new System.Windows.Forms.Label();
             this.reloj = new System.Windows.Forms.Label();
-            this.FotoPerfil = new System.Windows.Forms.PictureBox();
             this.lblUsuarioActual = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.BtnOpciones = new System.Windows.Forms.PictureBox();
-            this.btnSlide = new System.Windows.Forms.PictureBox();
             this.menuPrincipal = new System.Windows.Forms.Panel();
             this.panelBotonClinica = new System.Windows.Forms.Panel();
             this.btnClinicaConsultas = new System.Windows.Forms.Button();
             this.btnClinicaPacientes = new System.Windows.Forms.Button();
             this.btnClinicaCitas = new System.Windows.Forms.Button();
             this.btnClinicaDoctores = new System.Windows.Forms.Button();
-            this.btnClinica = new System.Windows.Forms.Button();
             this.PanelBotonLaboratorio = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.btnConsultas = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.btnCitas = new System.Windows.Forms.Button();
             this.btnIngresarDoctorLab = new System.Windows.Forms.Button();
-            this.btnLaboratorio = new System.Windows.Forms.Button();
             this.Logo = new System.Windows.Forms.Panel();
             this.nombreLogo = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BarraDeEstado = new System.Windows.Forms.StatusStrip();
             this.statusLabelErrores = new System.Windows.Forms.ToolStripStatusLabel();
+            this.panelCont = new System.Windows.Forms.Panel();
+            this.FotoPerfil = new System.Windows.Forms.PictureBox();
+            this.BtnOpciones = new System.Windows.Forms.PictureBox();
+            this.btnSlide = new System.Windows.Forms.PictureBox();
+            this.btnClinica = new System.Windows.Forms.Button();
+            this.btnLaboratorio = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnMaximizar = new System.Windows.Forms.PictureBox();
+            this.btnRestaurar = new System.Windows.Forms.PictureBox();
+            this.btnMinimizar = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.barraTitulo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuOpciones.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panelContTemas.SuspendLayout();
@@ -101,16 +97,20 @@
             this.panel13.SuspendLayout();
             this.contenedor.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.FotoPerfil)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnOpciones)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSlide)).BeginInit();
             this.menuPrincipal.SuspendLayout();
             this.panelBotonClinica.SuspendLayout();
             this.PanelBotonLaboratorio.SuspendLayout();
             this.Logo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.BarraDeEstado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FotoPerfil)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnOpciones)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSlide)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // barraTitulo
@@ -126,59 +126,6 @@
             this.barraTitulo.Size = new System.Drawing.Size(1020, 26);
             this.barraTitulo.TabIndex = 1;
             // 
-            // btnMaximizar
-            // 
-            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(970, 3);
-            this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(15, 15);
-            this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMaximizar.TabIndex = 8;
-            this.btnMaximizar.TabStop = false;
-            this.btnMaximizar.Visible = false;
-            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
-            // 
-            // btnRestaurar
-            // 
-            this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
-            this.btnRestaurar.Location = new System.Drawing.Point(970, 3);
-            this.btnRestaurar.Name = "btnRestaurar";
-            this.btnRestaurar.Size = new System.Drawing.Size(15, 15);
-            this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnRestaurar.TabIndex = 7;
-            this.btnRestaurar.TabStop = false;
-            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
-            // 
-            // btnMinimizar
-            // 
-            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(940, 3);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(15, 15);
-            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMinimizar.TabIndex = 6;
-            this.btnMinimizar.TabStop = false;
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1002, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(15, 15);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
             // menuOpciones
             // 
             this.menuOpciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(81)))), ((int)(((byte)(112)))));
@@ -188,7 +135,7 @@
             this.menuOpciones.Dock = System.Windows.Forms.DockStyle.Right;
             this.menuOpciones.Location = new System.Drawing.Point(770, 0);
             this.menuOpciones.Name = "menuOpciones";
-            this.menuOpciones.Size = new System.Drawing.Size(250, 589);
+            this.menuOpciones.Size = new System.Drawing.Size(250, 567);
             this.menuOpciones.TabIndex = 2;
             // 
             // panel2
@@ -239,7 +186,7 @@
             this.panelContTemas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContTemas.Location = new System.Drawing.Point(0, 0);
             this.panelContTemas.Name = "panelContTemas";
-            this.panelContTemas.Size = new System.Drawing.Size(250, 589);
+            this.panelContTemas.Size = new System.Drawing.Size(250, 567);
             this.panelContTemas.TabIndex = 2;
             this.panelContTemas.Visible = false;
             // 
@@ -250,7 +197,7 @@
             this.panel5.Controls.Add(this.label4);
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label2);
-            this.panel5.Location = new System.Drawing.Point(0, 537);
+            this.panel5.Location = new System.Drawing.Point(0, 515);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(250, 29);
             this.panel5.TabIndex = 9;
@@ -361,7 +308,7 @@
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.button7);
+            this.panel9.Controls.Add(this.btnPerfil);
             this.panel9.Controls.Add(this.btnMiPerfil);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel9.Location = new System.Drawing.Point(0, 21);
@@ -369,22 +316,22 @@
             this.panel9.Size = new System.Drawing.Size(250, 155);
             this.panel9.TabIndex = 6;
             // 
-            // button7
+            // btnPerfil
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 30);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(250, 30);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Mi Perfil";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPerfil.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPerfil.FlatAppearance.BorderSize = 0;
+            this.btnPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPerfil.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPerfil.ForeColor = System.Drawing.Color.White;
+            this.btnPerfil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPerfil.Location = new System.Drawing.Point(0, 30);
+            this.btnPerfil.Name = "btnPerfil";
+            this.btnPerfil.Size = new System.Drawing.Size(250, 30);
+            this.btnPerfil.TabIndex = 7;
+            this.btnPerfil.Text = "Mi Perfil";
+            this.btnPerfil.UseVisualStyleBackColor = true;
+            this.btnPerfil.Click += new System.EventHandler(this.btnMiPerfil_click);
             // 
             // btnMiPerfil
             // 
@@ -416,7 +363,7 @@
             this.contNotificicaciones.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contNotificicaciones.Location = new System.Drawing.Point(0, 0);
             this.contNotificicaciones.Name = "contNotificicaciones";
-            this.contNotificicaciones.Size = new System.Drawing.Size(250, 589);
+            this.contNotificicaciones.Size = new System.Drawing.Size(250, 567);
             this.contNotificicaciones.TabIndex = 1;
             // 
             // panel13
@@ -427,7 +374,7 @@
             this.panel13.Controls.Add(this.listNotificaciones);
             this.panel13.Location = new System.Drawing.Point(0, 51);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(247, 451);
+            this.panel13.Size = new System.Drawing.Size(247, 429);
             this.panel13.TabIndex = 1;
             this.panel13.Paint += new System.Windows.Forms.PaintEventHandler(this.panel13_Paint);
             // 
@@ -447,7 +394,7 @@
             // contenedor
             // 
             this.contenedor.BackColor = System.Drawing.Color.Gainsboro;
-            this.contenedor.Controls.Add(this.panel4);
+            this.contenedor.Controls.Add(this.panelCont);
             this.contenedor.Controls.Add(this.panel1);
             this.contenedor.Controls.Add(this.menuPrincipal);
             this.contenedor.Controls.Add(this.menuOpciones);
@@ -455,19 +402,8 @@
             this.contenedor.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.contenedor.Location = new System.Drawing.Point(0, 26);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(1020, 589);
+            this.contenedor.Size = new System.Drawing.Size(1020, 567);
             this.contenedor.TabIndex = 3;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.BackgroundImage = global::capaPresentacion.Properties.Resources.clinic_logo___Buscar_con_Google___Google_Chrome;
-            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(250, 56);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(520, 533);
-            this.panel4.TabIndex = 3;
             // 
             // panel1
             // 
@@ -511,18 +447,6 @@
             this.reloj.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.reloj.Click += new System.EventHandler(this.reloj_Click);
             // 
-            // FotoPerfil
-            // 
-            this.FotoPerfil.Dock = System.Windows.Forms.DockStyle.Right;
-            this.FotoPerfil.ErrorImage = global::capaPresentacion.Properties.Resources.clinic_logo___Buscar_con_Google___Google_Chrome;
-            this.FotoPerfil.Image = global::capaPresentacion.Properties.Resources.Doctor;
-            this.FotoPerfil.Location = new System.Drawing.Point(287, 0);
-            this.FotoPerfil.Name = "FotoPerfil";
-            this.FotoPerfil.Size = new System.Drawing.Size(92, 56);
-            this.FotoPerfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.FotoPerfil.TabIndex = 1;
-            this.FotoPerfil.TabStop = false;
-            // 
             // lblUsuarioActual
             // 
             this.lblUsuarioActual.AutoSize = true;
@@ -545,31 +469,6 @@
             this.panel3.Size = new System.Drawing.Size(43, 56);
             this.panel3.TabIndex = 9;
             // 
-            // BtnOpciones
-            // 
-            this.BtnOpciones.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnOpciones.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnOpciones.Image = ((System.Drawing.Image)(resources.GetObject("BtnOpciones.Image")));
-            this.BtnOpciones.Location = new System.Drawing.Point(17, 16);
-            this.BtnOpciones.Name = "BtnOpciones";
-            this.BtnOpciones.Size = new System.Drawing.Size(20, 25);
-            this.BtnOpciones.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.BtnOpciones.TabIndex = 8;
-            this.BtnOpciones.TabStop = false;
-            this.BtnOpciones.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // btnSlide
-            // 
-            this.btnSlide.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSlide.Image = ((System.Drawing.Image)(resources.GetObject("btnSlide.Image")));
-            this.btnSlide.Location = new System.Drawing.Point(6, 16);
-            this.btnSlide.Name = "btnSlide";
-            this.btnSlide.Size = new System.Drawing.Size(20, 25);
-            this.btnSlide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnSlide.TabIndex = 1;
-            this.btnSlide.TabStop = false;
-            this.btnSlide.Click += new System.EventHandler(this.btnSlide_Click);
-            // 
             // menuPrincipal
             // 
             this.menuPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
@@ -579,7 +478,7 @@
             this.menuPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(250, 589);
+            this.menuPrincipal.Size = new System.Drawing.Size(250, 567);
             this.menuPrincipal.TabIndex = 0;
             this.menuPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.menuPrincipal_Paint);
             // 
@@ -656,23 +555,6 @@
             this.btnClinicaDoctores.TabIndex = 10;
             this.btnClinicaDoctores.Text = "Doctores";
             this.btnClinicaDoctores.UseVisualStyleBackColor = false;
-            // 
-            // btnClinica
-            // 
-            this.btnClinica.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClinica.FlatAppearance.BorderSize = 0;
-            this.btnClinica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClinica.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClinica.ForeColor = System.Drawing.Color.White;
-            this.btnClinica.Image = global::capaPresentacion.Properties.Resources.estetoscopio_01;
-            this.btnClinica.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClinica.Location = new System.Drawing.Point(0, 2);
-            this.btnClinica.Name = "btnClinica";
-            this.btnClinica.Size = new System.Drawing.Size(250, 50);
-            this.btnClinica.TabIndex = 4;
-            this.btnClinica.Text = "Clinica";
-            this.btnClinica.UseVisualStyleBackColor = true;
-            this.btnClinica.Click += new System.EventHandler(this.btnClinica_Click_1);
             // 
             // PanelBotonLaboratorio
             // 
@@ -765,23 +647,6 @@
             this.btnIngresarDoctorLab.Text = "Doctores";
             this.btnIngresarDoctorLab.UseVisualStyleBackColor = false;
             // 
-            // btnLaboratorio
-            // 
-            this.btnLaboratorio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLaboratorio.FlatAppearance.BorderSize = 0;
-            this.btnLaboratorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLaboratorio.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLaboratorio.ForeColor = System.Drawing.Color.White;
-            this.btnLaboratorio.Image = global::capaPresentacion.Properties.Resources.Microscopio_01;
-            this.btnLaboratorio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLaboratorio.Location = new System.Drawing.Point(0, 2);
-            this.btnLaboratorio.Name = "btnLaboratorio";
-            this.btnLaboratorio.Size = new System.Drawing.Size(250, 42);
-            this.btnLaboratorio.TabIndex = 5;
-            this.btnLaboratorio.Text = "         Laboratorio";
-            this.btnLaboratorio.UseVisualStyleBackColor = true;
-            this.btnLaboratorio.Click += new System.EventHandler(this.btnLaboratorio_Click);
-            // 
             // Logo
             // 
             this.Logo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(98)))), ((int)(((byte)(163)))));
@@ -805,17 +670,6 @@
             this.nombreLogo.TabIndex = 1;
             this.nombreLogo.Text = "Laboratorio\r\nClinico\r\nMedico\r\n";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Image = global::capaPresentacion.Properties.Resources.unnamed;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(80, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // BarraDeEstado
             // 
             this.BarraDeEstado.BackColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -833,14 +687,160 @@
             this.statusLabelErrores.Size = new System.Drawing.Size(12, 17);
             this.statusLabelErrores.Text = "-";
             // 
+            // panelCont
+            // 
+            this.panelCont.BackColor = System.Drawing.Color.White;
+            this.panelCont.BackgroundImage = global::capaPresentacion.Properties.Resources.clinic_logo___Buscar_con_Google___Google_Chrome;
+            this.panelCont.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panelCont.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCont.Location = new System.Drawing.Point(250, 56);
+            this.panelCont.Name = "panelCont";
+            this.panelCont.Size = new System.Drawing.Size(520, 511);
+            this.panelCont.TabIndex = 3;
+            // 
+            // FotoPerfil
+            // 
+            this.FotoPerfil.Dock = System.Windows.Forms.DockStyle.Right;
+            this.FotoPerfil.ErrorImage = global::capaPresentacion.Properties.Resources.clinic_logo___Buscar_con_Google___Google_Chrome;
+            this.FotoPerfil.Image = global::capaPresentacion.Properties.Resources.Doctor;
+            this.FotoPerfil.Location = new System.Drawing.Point(287, 0);
+            this.FotoPerfil.Name = "FotoPerfil";
+            this.FotoPerfil.Size = new System.Drawing.Size(92, 56);
+            this.FotoPerfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.FotoPerfil.TabIndex = 1;
+            this.FotoPerfil.TabStop = false;
+            // 
+            // BtnOpciones
+            // 
+            this.BtnOpciones.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnOpciones.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnOpciones.Image = ((System.Drawing.Image)(resources.GetObject("BtnOpciones.Image")));
+            this.BtnOpciones.Location = new System.Drawing.Point(17, 16);
+            this.BtnOpciones.Name = "BtnOpciones";
+            this.BtnOpciones.Size = new System.Drawing.Size(20, 25);
+            this.BtnOpciones.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BtnOpciones.TabIndex = 8;
+            this.BtnOpciones.TabStop = false;
+            this.BtnOpciones.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // btnSlide
+            // 
+            this.btnSlide.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSlide.Image = ((System.Drawing.Image)(resources.GetObject("btnSlide.Image")));
+            this.btnSlide.Location = new System.Drawing.Point(6, 16);
+            this.btnSlide.Name = "btnSlide";
+            this.btnSlide.Size = new System.Drawing.Size(20, 25);
+            this.btnSlide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnSlide.TabIndex = 1;
+            this.btnSlide.TabStop = false;
+            this.btnSlide.Click += new System.EventHandler(this.btnSlide_Click);
+            // 
+            // btnClinica
+            // 
+            this.btnClinica.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClinica.FlatAppearance.BorderSize = 0;
+            this.btnClinica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClinica.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClinica.ForeColor = System.Drawing.Color.White;
+            this.btnClinica.Image = global::capaPresentacion.Properties.Resources.estetoscopio_01;
+            this.btnClinica.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClinica.Location = new System.Drawing.Point(0, 2);
+            this.btnClinica.Name = "btnClinica";
+            this.btnClinica.Size = new System.Drawing.Size(250, 50);
+            this.btnClinica.TabIndex = 4;
+            this.btnClinica.Text = "Clinica";
+            this.btnClinica.UseVisualStyleBackColor = true;
+            this.btnClinica.Click += new System.EventHandler(this.btnClinica_Click_1);
+            // 
+            // btnLaboratorio
+            // 
+            this.btnLaboratorio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLaboratorio.FlatAppearance.BorderSize = 0;
+            this.btnLaboratorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLaboratorio.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLaboratorio.ForeColor = System.Drawing.Color.White;
+            this.btnLaboratorio.Image = global::capaPresentacion.Properties.Resources.Microscopio_01;
+            this.btnLaboratorio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLaboratorio.Location = new System.Drawing.Point(0, 2);
+            this.btnLaboratorio.Name = "btnLaboratorio";
+            this.btnLaboratorio.Size = new System.Drawing.Size(250, 42);
+            this.btnLaboratorio.TabIndex = 5;
+            this.btnLaboratorio.Text = "         Laboratorio";
+            this.btnLaboratorio.UseVisualStyleBackColor = true;
+            this.btnLaboratorio.Click += new System.EventHandler(this.btnLaboratorio_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = global::capaPresentacion.Properties.Resources.unnamed;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnMaximizar
+            // 
+            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
+            this.btnMaximizar.Location = new System.Drawing.Point(970, 3);
+            this.btnMaximizar.Name = "btnMaximizar";
+            this.btnMaximizar.Size = new System.Drawing.Size(15, 15);
+            this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMaximizar.TabIndex = 8;
+            this.btnMaximizar.TabStop = false;
+            this.btnMaximizar.Visible = false;
+            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
+            // 
+            // btnRestaurar
+            // 
+            this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
+            this.btnRestaurar.Location = new System.Drawing.Point(970, 3);
+            this.btnRestaurar.Name = "btnRestaurar";
+            this.btnRestaurar.Size = new System.Drawing.Size(15, 15);
+            this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnRestaurar.TabIndex = 7;
+            this.btnRestaurar.TabStop = false;
+            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(940, 3);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(15, 15);
+            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMinimizar.TabIndex = 6;
+            this.btnMinimizar.TabStop = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1002, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(15, 15);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // MenuVertical
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1020, 615);
-            this.Controls.Add(this.BarraDeEstado);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.barraTitulo);
+            this.Controls.Add(this.BarraDeEstado);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuVertical";
             this.ShowIcon = false;
@@ -848,10 +848,6 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MenuVertical_Load);
             this.barraTitulo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.menuOpciones.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panelContTemas.ResumeLayout(false);
@@ -867,18 +863,22 @@
             this.contenedor.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.FotoPerfil)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.BtnOpciones)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSlide)).EndInit();
             this.menuPrincipal.ResumeLayout(false);
             this.panelBotonClinica.ResumeLayout(false);
             this.PanelBotonLaboratorio.ResumeLayout(false);
             this.Logo.ResumeLayout(false);
             this.Logo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.BarraDeEstado.ResumeLayout(false);
             this.BarraDeEstado.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FotoPerfil)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnOpciones)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSlide)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -903,7 +903,7 @@
         private System.Windows.Forms.PictureBox btnMaximizar;
         private System.Windows.Forms.Label nombreLogo;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panelCont;
         private System.Windows.Forms.StatusStrip BarraDeEstado;
         private System.Windows.Forms.ToolStripStatusLabel statusLabelErrores;
         private System.Windows.Forms.Label lblFecha;
@@ -920,7 +920,7 @@
         private System.Windows.Forms.Button btnTemas;
         private System.Windows.Forms.Button btnNotificaciones;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnPerfil;
         private System.Windows.Forms.Button btnMiPerfil;
         private System.Windows.Forms.ListBox listNotificaciones;
         private System.Windows.Forms.Panel panel13;

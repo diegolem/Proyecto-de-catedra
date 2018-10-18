@@ -12,3 +12,4 @@ C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica po
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csproj.CopyComplete
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.exe
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.pdb
+C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.frmPerfil.resources

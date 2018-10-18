@@ -322,9 +322,25 @@ namespace capaPresentacion
 
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void btnMiPerfil_click(object sender, EventArgs e)
         {
+            frmPerfil Perfil = new frmPerfil();
+            AbrirFormInPanel(Perfil);
+        }
 
+
+
+        //abre dentro del panel el frm
+        private void AbrirFormInPanel(Object Formhijo)
+        {
+            if (this.panelCont.Controls.Count > 0)
+                this.panelCont.Controls.RemoveAt(0);
+            Form fh = Formhijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelCont.Controls.Add(fh);
+            this.panelCont.Tag = fh;
+            fh.Show();
         }
     }
 }
