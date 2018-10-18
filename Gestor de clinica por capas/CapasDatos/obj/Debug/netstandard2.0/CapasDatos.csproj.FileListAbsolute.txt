@@ -1,9 +1,0 @@
-C:\Users\Jeffry\source\repos\SQLCapa\CapasDatos\bin\Debug\netstandard2.0\CapasDatos.deps.json
-C:\Users\Jeffry\source\repos\SQLCapa\CapasDatos\bin\Debug\netstandard2.0\CapasDatos.dll
-C:\Users\Jeffry\source\repos\SQLCapa\CapasDatos\bin\Debug\netstandard2.0\CapasDatos.pdb
-C:\Users\Jeffry\source\repos\SQLCapa\CapasDatos\obj\Debug\netstandard2.0\CapasDatos.csprojAssemblyReference.cache
-C:\Users\Jeffry\source\repos\SQLCapa\CapasDatos\obj\Debug\netstandard2.0\CapasDatos.csproj.CoreCompileInputs.cache
-C:\Users\Jeffry\source\repos\SQLCapa\CapasDatos\obj\Debug\netstandard2.0\CapasDatos.AssemblyInfoInputs.cache
-C:\Users\Jeffry\source\repos\SQLCapa\CapasDatos\obj\Debug\netstandard2.0\CapasDatos.AssemblyInfo.cs
-C:\Users\Jeffry\source\repos\SQLCapa\CapasDatos\obj\Debug\netstandard2.0\CapasDatos.dll
-C:\Users\Jeffry\source\repos\SQLCapa\CapasDatos\obj\Debug\netstandard2.0\CapasDatos.pdb

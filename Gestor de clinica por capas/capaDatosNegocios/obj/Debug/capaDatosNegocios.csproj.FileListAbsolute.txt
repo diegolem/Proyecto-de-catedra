@@ -1,0 +1,5 @@
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaDatosNegocios\bin\Debug\capaDatosNegocios.dll
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaDatosNegocios\bin\Debug\capaDatosNegocios.pdb
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaDatosNegocios\obj\Debug\capaDatosNegocios.csproj.CoreCompileInputs.cache
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaDatosNegocios\obj\Debug\capaDatosNegocios.dll
+C:\Users\admin\git\Proyecto-de-catedra\Gestor de clinica por capas\capaDatosNegocios\obj\Debug\capaDatosNegocios.pdb
