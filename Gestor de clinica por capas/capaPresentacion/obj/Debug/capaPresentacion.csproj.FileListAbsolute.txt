@@ -13,3 +13,5 @@ C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica po
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.exe
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.pdb
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.frmPerfil.resources
+C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.frmDoctor.resources
+C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.SplashScreen.resources

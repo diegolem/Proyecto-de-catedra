@@ -37,8 +37,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -85,6 +85,7 @@
             this.txtUsuario.Size = new System.Drawing.Size(211, 19);
             this.txtUsuario.TabIndex = 0;
             this.txtUsuario.Text = "USUARIO";
+            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
             this.txtUsuario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUsuario_KeyDown);
             this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
@@ -153,16 +154,6 @@
             this.panel1.TabIndex = 9;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.DimGray;
-            this.label4.Location = new System.Drawing.Point(47, 100);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(217, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "___________________________________";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -172,6 +163,16 @@
             this.label1.Size = new System.Drawing.Size(104, 31);
             this.label1.TabIndex = 8;
             this.label1.Text = "LOGIN";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.DimGray;
+            this.label4.Location = new System.Drawing.Point(47, 100);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(217, 13);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "___________________________________";
             // 
             // Login
             // 

@@ -87,7 +87,7 @@ namespace capaPresentacion
             if (txtUsuario.Text == "USUARIO")
             {
                 txtUsuario.Text = "";
-                txtUsuario.ForeColor = Color.LightGray;
+                txtUsuario.ForeColor = Color.Black;
             }
         }
 
@@ -105,7 +105,7 @@ namespace capaPresentacion
             if (txtPass.Text == "CONTRASEÑA")
             {
                 txtPass.Text = "";
-                txtPass.ForeColor = Color.LightGray;
+                txtPass.ForeColor = Color.Black;
                 txtPass.UseSystemPasswordChar = true;
             }
         }
@@ -142,6 +142,11 @@ namespace capaPresentacion
             {
                 BtnBoton_Click(null, e);
             }
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

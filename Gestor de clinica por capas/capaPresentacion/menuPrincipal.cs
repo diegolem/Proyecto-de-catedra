@@ -326,6 +326,7 @@ namespace capaPresentacion
         {
             frmPerfil Perfil = new frmPerfil();
             AbrirFormInPanel(Perfil);
+            this.panelCont.Show();
         }
 
 
@@ -341,6 +342,18 @@ namespace capaPresentacion
             this.panelCont.Controls.Add(fh);
             this.panelCont.Tag = fh;
             fh.Show();
+        }
+
+        private void btnIngresarDoctorLab_Click(object sender, EventArgs e)
+        {
+            frmDoctor ingresarDoctor= new frmDoctor();
+            AbrirFormInPanel(ingresarDoctor);
+            this.panelCont.Show();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            this.panelCont.Hide();
         }
     }
 }

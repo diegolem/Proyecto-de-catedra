@@ -8,7 +8,7 @@
 use master
 go
 
- --para borrar la base de datos, hay que estar en el loogin de tu pc normal
+drop database IF EXISTS GestorDeClinica --para borrar la base de datos, hay que estar en el loogin de tu pc normal
 GO
 
 create database GestorDeClinica
@@ -51,17 +51,18 @@ Fk_IdPaciente char(6) not null foreign key (FK_IdPaciente) references Paciente(I
 )
 GO
 
-CREATE TABLE usuario-- se creó para evitar redundancia de datos entre doctores y empleados, ya que comparten datos en comun
+CREATE TABLE empleado-- se creó para evitar redundancia de datos entre doctores y empleados, ya que comparten datos en comun
 (
-ID_usuario char(6) not null primary key,
-Pass varchar(50) not null,
+id_Empleado char(6) not null primary key,
 Nombre varchar(50),
 Apellido varchar(50),
-Rol varchar(50),
 Direccion varchar(100),
 Telefono int,
 Dui int,
 Genero varchar (15),-- si es hombre o mujer
+usuario varchar(50) not null UNIQUE, --con unique nos aseguramos que los usuarios sean diferentes
+pass varchar(50) not null,
+rol varchar(50),
 fotografia varchar(max),
 Fk_IDClinica int not null foreign key (Fk_IDClinica) references Clinica(id_Clinica) -- a que clinica pertenece el empleado
 )
@@ -69,19 +70,19 @@ GO
 
 CREATE TABLE notificacion
 (
-Id_Notificacion int identity not null primary key,
-Emisor char(50),
-Receptor char(50),
-Mensaje char(255),
-FK_IDusuario char(6) not null foreign key (fk_IDusuario) references empleado(id_usuario)
+id_notificacion int identity not null primary key,
+emisor char(50),
+receptor char(50),
+mensaje char(255),
+FK_IDEmpleado char(6) not null foreign key (fk_IDEmpleado) references empleado(id_Empleado)
 )
 GO
 
 create table doctor
-(Id_Doctor int not null identity primary key,--con identity no es necesario estarle poniendo datos en la primary key, el solo le pone datos
+(id_Doctor int not null identity primary key,--con identity no es necesario estarle poniendo datos en la primary key, el solo le pone datos
 especialidad char(255),--especifica a que se dedica, si es odontologo, laboratirista, ginecologo, tecnologo, etc...
 descripcion_Personal char(255), --informacion extra que quiera aportar el doctor
-Fk_IDUsuario char(6) not null foreign key (Fk_IDEmpleado) references empleado(id_Empleado) -- a que clinica pertenece el doc
+Fk_IDEmpleado char(6) not null foreign key (Fk_IDEmpleado) references empleado(id_Empleado) -- a que clinica pertenece el doc
 )
 GO
 
@@ -229,30 +230,22 @@ GO
 	--creando mantenimiento notificaciones
 
 		create procedure clinicas.verNotificacion(
-			@id_empleado char(6)--//para verificar de quien es el mensaje
+			@id_empleado int--//para verificar de quien es el mensaje
 		)
 		as
 			select * from clinicas.notificacion
 			where FK_IDEmpleado = @id_empleado
 		GO
 
-		insert into clinicas.notificacion values('AdminCL','administrador','--Hola esta es una prueva de notificacion gracias!','admin0')
-		GO
-		insert into clinicas.notificacion values('AdminCL','administrador','--gracias! 2','admin0')
-		GO
-		insert into clinicas.notificacion values('AdminCL','administrador','--jeje 2','admin0')
-		GO
-		exec clinicas.verNotificacion @id_empleado = 'admin0'
-		GO
 		create procedure clinicas.enviarNotificacion(
-			@id_receptor char(6),
+			@Id_receptor char(6),
 			@emisor varchar(50),
 			@receptor varchar(50),
 			@mensaje varchar(255)
 		)
 		as
 			insert into clinicas.notificacion
-			values(@emisor,@receptor,@mensaje,@id_receptor);
+			values(@emisor,@receptor,@mensaje,@ID_receptor);
 		GO
 
 
