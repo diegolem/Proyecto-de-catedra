@@ -250,7 +250,11 @@
             this.panel5.Controls.Add(this.label4);
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label2);
+<<<<<<< HEAD
             this.panel5.Location = new System.Drawing.Point(0, 515);
+=======
+            this.panel5.Location = new System.Drawing.Point(0, 537);
+>>>>>>> origin/master
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(250, 29);
             this.panel5.TabIndex = 9;
@@ -515,7 +519,11 @@
             // 
             this.FotoPerfil.Dock = System.Windows.Forms.DockStyle.Right;
             this.FotoPerfil.ErrorImage = global::capaPresentacion.Properties.Resources.clinic_logo___Buscar_con_Google___Google_Chrome;
+<<<<<<< HEAD
             this.FotoPerfil.Image = global::capaPresentacion.Properties.Resources.Doctor;
+=======
+            this.FotoPerfil.Image = global::capaPresentacion.Properties.Resources.clinic_logo___Buscar_con_Google___Google_Chrome;
+>>>>>>> origin/master
             this.FotoPerfil.Location = new System.Drawing.Point(287, 0);
             this.FotoPerfil.Name = "FotoPerfil";
             this.FotoPerfil.Size = new System.Drawing.Size(92, 56);
@@ -777,7 +785,11 @@
             this.btnLaboratorio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLaboratorio.Location = new System.Drawing.Point(0, 2);
             this.btnLaboratorio.Name = "btnLaboratorio";
+<<<<<<< HEAD
             this.btnLaboratorio.Size = new System.Drawing.Size(250, 50);
+=======
+            this.btnLaboratorio.Size = new System.Drawing.Size(250, 42);
+>>>>>>> origin/master
             this.btnLaboratorio.TabIndex = 5;
             this.btnLaboratorio.Text = "         Laboratorio";
             this.btnLaboratorio.UseVisualStyleBackColor = true;
@@ -816,7 +828,10 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+<<<<<<< HEAD
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
+=======
+>>>>>>> origin/master
             // 
             // BarraDeEstado
             // 

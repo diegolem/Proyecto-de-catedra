@@ -10,8 +10,15 @@ C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica po
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaDatosNegocios.dll
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaDatosNegocios.pdb
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.exe
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.pdb
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.frmPerfil.resources
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.frmDoctor.resources
 C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.SplashScreen.resources
+=======
+C:\Users\Jeffry\Documents\Mis Proyectos\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.MiPerfil.resources
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\bin\Debug\capaPresentacion.exe.config
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.exe
+C:\Users\DELL\Desktop\POO\Proyecto-de-catedra\Gestor de clinica por capas\capaPresentacion\obj\Debug\capaPresentacion.pdb
+>>>>>>> origin/master
